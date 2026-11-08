@@ -1,11 +1,12 @@
 {
   "name": "magpie-agent-celia",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Adds Celia (外贸客户开发助手) to Magpie's Agents page.",
   "files": [
     "celia.agent.mjs",
-    "README.md"
+    "README.md",
+    "icon.png"
   ],
   "keywords": [
     "magpie-plugin",
@@ -13,6 +14,7 @@
   ],
   "magpie": {
     "name": "Celia",
+    "icon": "https://raw.githubusercontent.com/Scorpioxyb/magpie-agent-celia/main/icon.png",
     "summary": "让 Celia 的助手走 Magpie 里的模型。",
     "agent": "./celia.agent.mjs"
   },
